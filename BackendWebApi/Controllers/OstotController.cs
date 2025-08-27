@@ -13,9 +13,7 @@ namespace BackendWebApi.Controllers
     [ApiController]
     public class OstotController : ControllerBase
     {
-        private readonly OstoksetContext _context = new();
-
-      
+        private readonly OstoksetContext _context = new OstoksetContext();
 
         // GET: api/Ostot
         [HttpGet]
